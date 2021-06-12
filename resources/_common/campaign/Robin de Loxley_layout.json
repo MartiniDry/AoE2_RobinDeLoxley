@@ -1,0 +1,25 @@
+{
+	"BackgroundMaterial": "CampaignBackgroundHistorical",
+	"Widgets": [
+		{
+			"Widget": {
+				"Type": "Button",
+				"Name": "ScenarioButton1",
+				"ViewPort": {
+					"xorigin": 1420,
+					"yorigin": 200,
+					"width": 700,
+					"height": 360,
+					"alignment": "TopLeft"
+				},
+				"Image": {
+					"xorigin": 0,
+					"yorigin": 0,
+					"width": 256,
+					"height": 320,
+					"alignment": "TopLeft"
+				}
+			}
+		}
+	]
+}

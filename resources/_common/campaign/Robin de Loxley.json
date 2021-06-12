@@ -1,0 +1,66 @@
+{
+	"Scenarios": [
+		{
+			"IntroSequence": {
+				"SequenceItems": [
+					{
+						"Type": "SlideShow",
+						"Data": {
+							"SlideBackgroundImage": "textures/campaign/xcam1/attila_background.dds",
+							"SlideImageSequence": "textures/campaign/Ragnar's Raids/intro/%d.png",
+							"Sound": ,
+							"Slides": [
+								{
+									"Duration" : 24.5,
+									"TextFadeDuration" : 22,
+									"ImageRect": {
+										"x": 750,
+										"y": 650,
+										"width": 2000,
+										"height": 1048
+									},
+									"String" : "Voici un extrait de texte pour l'intro.",
+									"TextRect": {
+										"x": 2000,
+										"y": 550,
+										"width": 750,
+										"height": 800
+									}
+								}
+						}
+					}
+				]
+			}
+			"OutroSequence": {
+				"SequenceItems": [
+					{
+						"Type": "SlideShow",
+						"Data": {
+							"SlideBackgroundImage": "textures/campaign/xcam1/attila_background.dds",
+							"SlideImageSequence": "textures/campaign/Ragnar's Raids/outro/%d.png",
+							"Sound": ,
+							"Slides": [
+								{
+									"Duration" : 24.5,
+									"TextFadeDuration" : 22,
+									"ImageRect": {
+										"x": 750,
+										"y": 650,
+										"width": 2000,
+										"height": 1048
+									},
+									"String" : "Voici un extrait de texte pour l'outro.",
+									"TextRect": {
+										"x": 2000,
+										"y": 550,
+										"width": 750,
+										"height": 800
+									}
+								}
+						}
+					}
+				]
+			}
+		}
+	]
+}
