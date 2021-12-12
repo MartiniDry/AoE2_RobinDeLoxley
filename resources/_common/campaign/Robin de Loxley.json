@@ -27,6 +27,7 @@
 										"height": 800
 									}
 								}
+							]
 						}
 					}
 				]
@@ -37,7 +38,7 @@
 						"Type": "SlideShow",
 						"Data": {
 							"SlideBackgroundImage": "textures/campaign/xcam1/attila_background.dds",
-							"SlideImageSequence": "textures/campaign/Ragnar's Raids/outro/%d.png",
+							"SlideImageSequence": "textures/campaign/Robin de Loxley/outro/%d.png",
 							"Sound": ,
 							"Slides": [
 								{
@@ -57,6 +58,7 @@
 										"height": 800
 									}
 								}
+							]
 						}
 					}
 				]
