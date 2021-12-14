@@ -7,12 +7,12 @@
 						"Type": "SlideShow",
 						"Data": {
 							"SlideBackgroundImage": "textures/campaign/xcam1/attila_background.dds",
-							"SlideImageSequence": "textures/campaign/Ragnar's Raids/intro/%d.png",
+							"SlideImageSequence": "textures/campaign/RobinLoxley/intro/%d.png",
 							"Sound": ,
 							"Slides": [
 								{
-									"Duration" : 24.5,
-									"TextFadeDuration" : 22,
+									"Duration" : 5.5,
+									"TextFadeDuration" : 4,
 									"ImageRect": {
 										"x": 750,
 										"y": 650,
@@ -20,6 +20,23 @@
 										"height": 1048
 									},
 									"String" : "Voici un extrait de texte pour l'intro.",
+									"TextRect": {
+										"x": 2000,
+										"y": 550,
+										"width": 750,
+										"height": 800
+									}
+								},
+								{
+									"Duration" : 4.5,
+									"TextFadeDuration" : 3,
+									"ImageRect": {
+										"x": 750,
+										"y": 650,
+										"width": 2000,
+										"height": 1048
+									},
+									"String" : "Et un second texte !",
 									"TextRect": {
 										"x": 2000,
 										"y": 550,
@@ -38,7 +55,7 @@
 						"Type": "SlideShow",
 						"Data": {
 							"SlideBackgroundImage": "textures/campaign/xcam1/attila_background.dds",
-							"SlideImageSequence": "textures/campaign/Robin de Loxley/outro/%d.png",
+							"SlideImageSequence": "textures/campaign/RobinLoxley/outro/%d.png",
 							"Sound": ,
 							"Slides": [
 								{

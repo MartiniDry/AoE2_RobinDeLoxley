@@ -1,0 +1,115 @@
+{
+	"BackgroundMaterial": "CampaignBackgroundHistorical",
+	"Widgets": [
+		{
+			"Widget": {
+				"Type": "Button",
+				"Name": "ScenarioButton1",
+				"ViewPort": {
+					"xorigin": 1420,
+					"yorigin": 200,
+					"width": 700,
+					"height": 360,
+					"alignment": "TopLeft"
+				},
+				"Image": {
+					"xorigin": 0,
+					"yorigin": 0,
+					"width": 256,
+					"height": 320,
+					"alignment": "TopLeft"
+				},
+				"StateMaterials": {
+					"StateDisabled": {
+						"Font": {
+							"FontIndex": 0,
+							"PointSize": 34,
+							"Style": "Normal",
+							"TextColor": {
+								"r": 42,
+								"g": 10,
+								"b": 82,
+								"a": 128
+							}
+						}
+					},
+					"StateNormal": {
+						"Material": "ScenarioIcon11YorkNormal",
+						"Font": {
+							"FontIndex": 0,
+							"PointSize": 34,
+							"Style": "Normal",
+							"TextColor": {
+								"r": 42,
+								"g": 10,
+								"b": 82,
+								"a": 255
+							}
+						}
+					},
+					"StateHover": {
+						"Material": "ScenarioIcon11YorkHover",
+						"Font": {
+							"FontIndex": 0,
+							"PointSize": 34,
+							"Style": "Normal",
+							"TextColor": {
+								"r": 42,
+								"g": 10,
+								"b": 82,
+								"a": 255
+							}
+						}
+					},
+					"StatePressed": {
+						"Material": "ScenarioIcon11YorkPressed",
+						"Font": {
+							"FontIndex": 0,
+							"PointSize": 34,
+							"Style": "Normal",
+							"TextColor": {
+								"r": 42,
+								"g": 10,
+								"b": 82,
+								"a": 255
+							}
+						}
+					}
+				},
+				"ChildWidgets": [
+					{
+						"Widget": {
+							"Type": "Label",
+							"Name": "ScenarioButtonLabel",
+							"ViewPort": {
+								"xorigin": 60,
+								"yorigin": 270,
+								"width": 700,
+								"height": 100,
+								"alignment": "TopLeft"
+							},
+							"StateMaterials": {
+								"StateNormal": {
+									"Font": {
+										"FontIndex": 0,
+										"PointSize": 45,
+										"Style": "Normal",
+										"TextColor": {
+											"r": 10,
+											"g": 40,
+											"b": 10,
+											"a": 255
+										}
+									}
+								}
+							},
+							"Text": "L'embuscade",
+							"TextAnchor": "TopLeft",
+							"ChildWidgets": []
+						}
+					}
+				]
+			}
+		}
+	]
+}
