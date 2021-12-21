@@ -1,4 +1,4 @@
-<img src="thumbnail.jpg" align="right" width="450" />
+<img src="thumbnail.jpg" align="right" width="400" />
 
 # AoE2_RobinDeLoxley
 
